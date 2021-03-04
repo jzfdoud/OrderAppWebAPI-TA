@@ -15,6 +15,7 @@ namespace OrderAppWebAPI_TA.Data
         }
 
         public DbSet<Customer> Customer { get; set; }
+        public DbSet<Order> Orders { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
